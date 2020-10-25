@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import BaiTapThucHanhLayout from "./Components/bai_tap_1/BaiTapThucHanhLayout";
+// import Bai_tap_film from "./Components/bai_tap_2/Bai_tap_film";
+// import BaiTapLayout from "./Components/bai_tap_3_props/bai_tap_layout_component/BaiTapLayout";
+// import PropsFunction from "./Components/bai_tap_4_propsFunction/PropsFunction";
+// import ReduxGioHang from "./Components/bai_tap_redux/ReduxGioHang";
+// import Burger from "./Components/bai_tap_Burger/Burger";
+// import BTForm from "./Components/bai_tap_form_quan_ly_SV/BTForm";
+import Bai_tap_game_oan_tu_xi from "./Components/bai_tap_game_oan_tu_ti/Bai_tap_game_oan_tu_xi";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BaiTapThucHanhLayout /> */}
+      {/* <Bai_tap_film /> */}
+      {/* <BaiTapLayout /> */}
+      {/* <PropsFunction /> */}
+      {/* <ReduxGioHang /> */}
+      {/* <Burger /> */}
+      {/* <BTForm /> */}
+      <Bai_tap_game_oan_tu_xi/>
     </div>
   );
 }

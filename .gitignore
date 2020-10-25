@@ -2,22 +2,15 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/Components/bai_tap_1
+/Components/bai_tap_2
+/Components/bai_tap_3_props
+/Components/bai_tap_4_propsFunction
+/Components/bai_tap_Burger
+/Components/bai_tap_form_quan_ly_SV
+/Components/bai_tap_redux
+/data
+/Redux/Bai_tap_oan_tu_ti_Reducer.jsx
+/Redux/BurgerReducer.jsx
+/Redux/GioHangReducer.jsx
+/Redux/QuanLySinhVienReducer.jsx
